@@ -5,22 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01fc683a-a15d-4b61-b121-ea3bdcca1a2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/EnglishSolitaireModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MockModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/view/MarbleSolitaireTextView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/view/MarbleSolitaireView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Hw03TypeChecks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controller/ControllerImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controller/FakeAppendableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/model/EnglishSolitaireModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/view/MarbleSolitaireTextViewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A2-SolitaireController.iml" beforeDir="false" afterPath="$PROJECT_DIR$/A2-SolitaireController.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/A3-MarbleSolitaireOtherShapes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/Archive 2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/Archive 3.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/Archive 4.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/Archive 5.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/Archive.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/controller/MarbleSolitaireController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/model/hw02/EnglishSolitaireModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelState$SlotState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/model/hw02/MockModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/model/hw04/AbstractSolitaireModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/model/hw04/EuropeanSolitaireModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/view/MarbleSolitaireTextView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/view/MarbleSolitaireView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/MarbleSolitaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/model/hw02/EnglishSolitaireModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/model/hw02/MockModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/model/hw04/AbstractSolitaireModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/model/hw04/EuropeanSolitaireModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/model/hw04/TriangleSolitaireModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/view/AbstractSolitaireTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/view/MarbleSolitaireTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/view/MarbleSolitaireView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/view/TriangleSolitaireTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/test/Hw04TypeChecks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/test/controller/ControllerImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/test/controller/FakeAppendableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/test/model/EnglishSolitaireModelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/test/model/EuropeanSolitaireModelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/test/model/TriangleSolitaireModelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/test/view/MarbleSolitaireTextViewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A3-MarbleSolitaireOtherShapes/test/view/TriangleSolitaireTextViewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/Archive 2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/Archive 3.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/Archive.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/L5-Mocks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/src/spreadsheet/BetterSpreadsheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/src/spreadsheet/MockSpreadSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/src/spreadsheet/SparseSpreadSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/src/spreadsheet/SpreadSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/src/spreadsheet/SpreadSheetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/src/spreadsheet/SpreadSheetProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/test/ControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MockModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MockModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,26 +89,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.ControllerImplTest">
     <configuration name="ControllerImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A2-SolitaireController" />
@@ -169,6 +209,8 @@
       <updated>1665434509189</updated>
       <workItem from="1665434510974" duration="24367000" />
       <workItem from="1665636197180" duration="49048000" />
+      <workItem from="1666013169559" duration="1502000" />
+      <workItem from="1666282945528" duration="2567000" />
     </task>
     <servers />
   </component>
