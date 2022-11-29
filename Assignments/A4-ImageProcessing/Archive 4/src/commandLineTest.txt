@@ -1,0 +1,4 @@
+load src/2x2.ppm original
+
+save src/TEST2x2.ppm original
+

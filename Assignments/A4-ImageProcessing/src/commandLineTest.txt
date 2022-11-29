@@ -1,0 +1,18 @@
+load src/2x2.ppm original
+
+vertical-flip original vertical
+
+brighten 10 original brighten10
+
+blue-component original blue-greyscale
+
+horizontal-flip vertical vertical-horizontal
+
+brighten -30 blue-greyscale blue-greyscale-darken30
+
+save src/res/vertical-horizontal.ppm vertical-horizontal
+
+save src/res/blue-greyscale-darken30.ppm blue-greyscale-darken30
+
+load src/2x3.ppm original
+

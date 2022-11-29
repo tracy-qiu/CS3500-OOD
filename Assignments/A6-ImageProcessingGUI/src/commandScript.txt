@@ -1,0 +1,39 @@
+load images/milky-way.jpg image
+
+brighten 50 image image
+
+value-component image image
+
+intensity-component image image
+
+luma-component image image
+
+red-component image image
+
+green-component image image
+
+blue-component image image
+
+luma-component image image
+
+value-component image image
+
+greyscale image image
+
+horizontal-flip image image
+
+vertical-flip image image
+
+brighten -10 image image
+
+blur image image
+
+blur image image
+
+blur image image
+
+sepia image image
+
+sharpen image image
+
+save images/transformedImage.png image

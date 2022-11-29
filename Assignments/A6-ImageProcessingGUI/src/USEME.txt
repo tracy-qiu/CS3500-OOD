@@ -1,0 +1,18 @@
+The image processor's Graphical User Interface(GUI) is used to visualize the image transformations.
+The GUI has the same functionality as the previous command line argument processing but now offers
+a display to select buttons for each image transformation. These include greyscale based on value,
+luma, intensity, red, green, or blue components. There is also image processing for vertical flip,
+horizontal flip, brighten, sepia, blur, and sharpen. Each of these image processing options
+can be applied after loading in an image. When the load button is clicked, a file chooser pops up
+to prompt the user for an input jpg, png, or bmp image file. Once selected, the image will pop up
+on the GUI as well as the histogram that represents the frequency of each pixel intensity 0 - 255.
+The x-axis represents the pixel intensities 0 - 255 and the y-axis represents the frequency of the
+that pixel intensity. There are four lines on the histogram, red, green, blue, and intensity
+represented with red, green, blue, and black lines respectively.
+
+When each transformation button is selected, the image processing is applied to the image on the GUI
+and updated the image and histogram. The brighten image processing is the only transformation that
+requires an input. The text box below the brighten button prompts for an integer value to increase
+or decrease the pixel values by the given amount. A positive value brightens the image, and a
+negative value darkens the image. To save the image displayed on the GUI, the file chooser pops up
+prompting the user to select a file destination. The exit button can be used to close the program.

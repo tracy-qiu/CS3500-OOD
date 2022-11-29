@@ -1,86 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c0f5ef15-2b3d-4be0-8f29-aaed6e722ee3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/A3-MarbleSolitaireOtherShapes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/Archive 2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/Archive 3.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/Archive 4.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/Archive 5.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/Archive.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/controller/MarbleSolitaireController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/model/hw02/EnglishSolitaireModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelState$SlotState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/model/hw02/MockModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/model/hw04/AbstractSolitaireModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/model/hw04/EuropeanSolitaireModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/view/MarbleSolitaireTextView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/out/production/A3-MarbleSolitaireOtherShapes/cs3500/marblesolitaire/view/MarbleSolitaireView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/MarbleSolitaire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/model/hw02/EnglishSolitaireModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModelState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/model/hw02/MockModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/model/hw04/AbstractSolitaireModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/model/hw04/EuropeanSolitaireModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/model/hw04/TriangleSolitaireModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/view/AbstractSolitaireTextView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/view/MarbleSolitaireTextView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/view/MarbleSolitaireView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/src/cs3500/marblesolitaire/view/TriangleSolitaireTextView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/test/Hw04TypeChecks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/test/controller/ControllerImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/test/controller/FakeAppendableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/test/model/EnglishSolitaireModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/test/model/EuropeanSolitaireModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/test/model/TriangleSolitaireModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/test/view/MarbleSolitaireTextViewTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A3-MarbleSolitaireOtherShapes/test/view/TriangleSolitaireTextViewTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/A4-ImageProcessing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/filename.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/ImageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/Koala.ppm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/koala-blue-greyscale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/koala-brighter-by-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/koala-green-greyscale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/koala-horizontal-vertical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/koala-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/koala-intensity-greyscale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/koala-luma-greyscale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/koala-red-greyscale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/koala-value-greyscale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/koala-vertical-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/koala-vertical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/model/IModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/model/IModelImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/view/IView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/A4-ImageProcessing/src/view/IViewImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/Archive 2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/Archive 3.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/Archive.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/L5-Mocks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/src/spreadsheet/BetterSpreadsheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/src/spreadsheet/MockSpreadSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/src/spreadsheet/SparseSpreadSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/src/spreadsheet/SpreadSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/src/spreadsheet/SpreadSheetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/src/spreadsheet/SpreadSheetProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab/L5-Mocks/test/ControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/A2-SolitaireController/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/A2-SolitaireController/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/A2-SolitaireController/src/cs3500/marblesolitaire/model/hw02/MockModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/A2-SolitaireController/src/cs3500/marblesolitaire/model/hw02/MockModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/CommandDesignPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/control/CommandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/control/ExtensibleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/control/SimpleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/control/TracingTurtleCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/control/UndoableTTCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/control/commands/Koch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/control/commands/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/control/commands/Retrieve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/control/commands/Save.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/control/commands/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/control/commands/Trace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/control/commands/Turn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/model/Position2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/model/SimpleTurtle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/model/TurtleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/tracingmodel/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/tracingmodel/SmarterTurtle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/src/cs3500/turtle/tracingmodel/TracingTurtleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandDesignPattern/test/cs3500/turtle/SmarterTurtleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/Inheritance.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/InstrumentedIntSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/InstrumentedIntSet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/InstrumentedIntSet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/InstrumentedIntSet3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/InstrumentedIntSet4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/IntSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/IntSet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/IntSet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/IntSet3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/IntSet4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/register/SimpleRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/register/SimpleRegister.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,17 +55,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Gc4RCmfm7XkFqaZVANl4zmstOw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -111,9 +87,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666674529291</updated>
-      <workItem from="1666674531017" duration="1000" />
+      <workItem from="1666674531017" duration="1785000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -125,5 +104,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -159,7 +159,8 @@ public final class SimpleRegister implements ICashRegister {
 
     @Override
     public Map<Integer, Integer> getContents() {
-        return moneyBox;
+        Map<Integer, Integer> box = new TreeMap<>(moneyBox);
+        return box;
     }
 
     public String getAuditLog() {

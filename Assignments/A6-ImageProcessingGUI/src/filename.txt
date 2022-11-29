@@ -1,0 +1,9 @@
+Width of image: 3
+Height of image: 2
+Maximum value of a color in this file (usually 255): 200
+Color of pixel (0,0): 10,20,33
+Color of pixel (1,0): 125,66,3
+Color of pixel (2,0): 7,87,90
+Color of pixel (0,1): 55,44,66
+Color of pixel (1,1): 28,0,200
+Color of pixel (2,1): 17,99,200
