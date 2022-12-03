@@ -1,0 +1,22 @@
+load modern-art.ppm modart
+load modern-art.png modart1
+load modern-art.jpg modart2
+load modern-art.bmp modart3
+red-component modart modart
+green-component modart modart
+blue-component modart modart
+value modart modart
+intensity modart modart
+luma modart modart
+flip-vertical modart modart
+flip-horizontal modart modart
+brighten modart modart 20
+darken modart modart 10
+blur modart modart
+sepia modart modart
+sharpen modart modart
+greyscale modart modart
+save processed-modern-art-ppm.ppm modart
+save processed-modern-art-png.png modart
+save processed-modern-art-jpg.jpg modart
+save processed-modern-art-bmp.bmp modart

@@ -1,0 +1,3 @@
+load res/giyu.png art
+greyscale art red-vert
+save res/newman1.png red-vert
