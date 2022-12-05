@@ -1,6 +1,8 @@
 package model;
 
 
+import java.util.Random;
+
 /**
  * Interface representing the operations and observations on an image of pixels.
  */
@@ -72,6 +74,9 @@ public interface PixelImage {
   PixelImage adjustBrightness(int factor);
 
   PixelImage mosaic(int numSeeds);
+
+  PixelImage mosaicRandomTesting(int numSeeds, int random);
+
   /**
    * Saves this image to the given path.
    *

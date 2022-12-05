@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
+import java.util.Random;
 import java.util.function.Supplier;
 
 import model.filters.BlurMatrix;
@@ -204,8 +205,27 @@ public class GridPixelImage implements PixelImage {
     return new GridPixelImage(newGrid, this.height, this.width);
   }
 
+  /**
+   * Applies mosaic effect to a given image based on number of seeds passed in by the user.
+   * @param numSeeds integer that represents number of seeds.
+   * @return new image that has had mosaic effect applied to it.
+   */
+  @Override
   public PixelImage mosaic(int numSeeds) {
     IMosaic mosaic = new ImageMosaic(this, numSeeds);
+    return mosaic.createMosaic();
+  }
+
+  /**
+   *
+   * @param numSeeds
+   * @param random
+   * @return
+   */
+  @Override
+  public PixelImage mosaicRandomTesting(int numSeeds, int random) {
+
+    IMosaic mosaic = new ImageMosaic(this, numSeeds, random);
     return mosaic.createMosaic();
   }
 
@@ -248,6 +268,12 @@ public class GridPixelImage implements PixelImage {
     return filMap.get(type).get().filterify();
   }
 
+  /**
+   * Ensures that the filtering method called actually exists in the hashmap.
+   * @param filMap hashmap that contains all filtering coommands.
+   * @param type type of filtering specified.
+   * @param <T> general return type.
+   */
   private <T> void ensureKey(Map<String, T> filMap, String type) {
     if (!filMap.containsKey(type)) {
       throw new IllegalArgumentException("invalid filtering operation");

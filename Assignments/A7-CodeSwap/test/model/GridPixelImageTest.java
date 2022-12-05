@@ -3,6 +3,7 @@ package model;
 import org.junit.Test;
 
 import java.io.File;
+import java.util.Random;
 import java.util.Scanner;
 
 import static org.junit.Assert.assertEquals;
@@ -16,9 +17,11 @@ public class GridPixelImageTest {
   PixelImage pI1;
   PixelImage pI2;
   PixelImage pI3;
+  PixelImage pI4;
   Pixel[][] pA1;
   Pixel[][] pA2;
   Pixel[][] pA3;
+  Pixel[][] pA4;
 
 
   /**
@@ -33,9 +36,21 @@ public class GridPixelImageTest {
             new StdPixel(100, 200, 255, 255)}};
     pA3 = new Pixel[][]{{new StdPixel(0, 0, 0, 500),
             new StdPixel(255, 255, 255, 500)}};
+    pA4 = new Pixel[][]{{new StdPixel(10, 20, 30, 255),
+            new StdPixel(255, 100, 10, 255)}, {
+            new StdPixel(0, 10, 20, 255),
+            new StdPixel(50, 30, 10, 255)}, {
+            new StdPixel(15, 5, 50, 255),
+            new StdPixel(100, 20, 60, 255)}, {
+            new StdPixel(10, 20, 30, 255),
+            new StdPixel(255, 100, 10, 255)}, {
+            new StdPixel(10, 20, 30, 255),
+            new StdPixel(255, 100, 10, 255)}};
     pI1 = new GridPixelImage(pA1, 2, 2);
     pI2 = new GridPixelImage(pA2, 2, 1);
     pI3 = new GridPixelImage(pA3, 1, 2);
+    pI4 = new GridPixelImage(pA4, 5, 2);
+
   }
 
   @Test(expected = IllegalArgumentException.class)
@@ -197,5 +212,22 @@ public class GridPixelImageTest {
                     64, 64, 64, 500)}}, 1, 2),
             pI3.filter("blur"));
 
+  }
+
+  @Test
+  public void mosaic() {
+    this.initData();
+
+    assertEquals(new GridPixelImage(new Pixel[][]{{new StdPixel(78, 40, 17, 255),
+                    new StdPixel(78, 40, 17, 255)}, {
+                    new StdPixel(78, 40, 17, 255),
+                    new StdPixel(78, 40, 17, 255)},{
+                    new StdPixel(15, 5, 50, 255),
+                    new StdPixel(126, 52, 28, 255)},{
+                    new StdPixel(126, 52, 28, 255),
+                    new StdPixel(126, 52, 28, 255)}, {
+                    new StdPixel(126, 52, 28, 255),
+                            new StdPixel(126, 52, 28, 255)}}, 5, 2),
+            pI4.mosaicRandomTesting(3, 37));
   }
 }

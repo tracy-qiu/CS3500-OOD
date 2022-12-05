@@ -17,6 +17,7 @@ import controller.cmds.ImageProcessorCmds;
 import controller.cmds.IntensityCmd;
 import controller.cmds.LoadCmd;
 import controller.cmds.LumaCmd;
+import controller.cmds.MosaicCmd;
 import controller.cmds.RedCompCmd;
 import controller.cmds.SaveCmd;
 import controller.cmds.SepiaCmd;
@@ -69,6 +70,7 @@ public class ImageProcessorControllerImpl implements ImageProcessorController {
     this.knownCommands.put("sharpen", scanner -> new SharpenCmd(scanner));
     this.knownCommands.put("sepia", scanner -> new SepiaCmd(scanner));
     this.knownCommands.put("greyscale", scanner -> new GreyscaleCmd(scanner));
+    this.knownCommands.put("mosaic", scanner -> new MosaicCmd(scanner));
   }
 
 

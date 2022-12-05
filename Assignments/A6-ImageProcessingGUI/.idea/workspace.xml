@@ -5,248 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f462d918-83c6-4d8f-9310-4bed57f5d712" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/A7-CodeSwap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/USEME.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/ImageProcessorRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/ButtonListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/GUIController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/ImageProcessorController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/ImageProcessorControllerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/AbstractCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/BlueCompCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/BlurCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/BrightenCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/DarkenCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/GreenCompCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/GreyscaleCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/HorizFlipCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/ImageProcessorCmds.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/IntensityCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/LoadCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/LumaCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/RedCompCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/SaveCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/SepiaCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/SharpenCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/ValueCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/VertFlipCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/AbstractButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/BlueButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/BlurButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/BrightenButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/DarkenButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/FlipHButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/FlipVButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/GreenButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/GreyscaleButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/IntensityButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/LoadButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/LumaButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/OpenButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/RedButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/RefreshButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/SaveButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/SepiaButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/SharpenButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/runnables/ValueButtonAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/BasicImageProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/GridPixelImage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/ImageProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/ImageUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/Pixel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/PixelImage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/StdPixel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/filters/AbstractColorTransMatrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/filters/AbstractFilterMatrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/filters/BlurMatrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/filters/GreyscaleMatrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/filters/MatrixFunction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/filters/MyMatrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/filters/SepiaMatrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/filters/SharpenMatrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/view/GUIView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/view/HistoPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/view/PixelImageView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/view/SwingImageProcessorView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/view/TerminalView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/ImageProcessorRunnerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/ConfirmInputsGUIView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/ConfirmInputsModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/GUIControllerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/ImageProcessorControllerImplTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/InvalidCommandModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/MockAppendable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/cmds/AbstractCmdTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/cmds/BlueCompCmdTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/cmds/BlurCmdTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/cmds/BrightenCmdTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/cmds/DarkenCmdTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/cmds/GreenCompCmdTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/cmds/GreyscaleCmdTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/cmds/HorizFlipCmdTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/cmds/IntensityCmdTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/cmds/LoadCmdTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/cmds/LumaCmdTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/cmds/RedCompCmdTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/cmds/SepiaCmdTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/cmds/SharpenCmdTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/cmds/ValueCmdTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/cmds/VertFlipCmdTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/AbstractButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/BlueButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/BlurButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/BrightenButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/DarkenButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/FlipHButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/FlipVButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/GreenButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/GreyscaleButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/IntensityButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/LoadButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/LumaButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/OpenButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/RedButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/RefreshButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/SepiaButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/SharpenButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/controller/runnables/ValueButtonActionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/model/BasicImageProcessorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/model/GridPixelImageTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/model/StdPixelTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/view/TerminalViewTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/questionnaire.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/res/GUI_running.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/res/chess3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/res/chess3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/res/chess3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/res/chess3.ppm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/res/masterTester.ppm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/res/modern-art.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/res/modern-art.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/res/modern-art.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/res/modern-art.ppm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/res/script.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/res/scriptTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/ImageProcessorRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/ButtonListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/GUIController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/ImageProcessorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/ImageProcessorControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/AbstractCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/BlueCompCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/BlurCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/BrightenCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/DarkenCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/GreenCompCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/GreyscaleCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/HorizFlipCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/ImageProcessorCmds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/IntensityCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/LoadCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/LumaCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/RedCompCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/SaveCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/SepiaCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/SharpenCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/ValueCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/VertFlipCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/AbstractButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/BlueButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/BlurButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/BrightenButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/DarkenButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/FlipHButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/FlipVButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/GreenButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/GreyscaleButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/IntensityButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/LoadButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/LumaButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/OpenButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/RedButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/RefreshButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/SaveButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/SepiaButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/SharpenButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/runnables/ValueButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/BasicImageProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/GridPixelImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/ImageProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/ImageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/Pixel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/PixelImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/StdPixel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/filters/AbstractColorTransMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/filters/AbstractFilterMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/filters/BlurMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/filters/GreyscaleMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/filters/MatrixFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/filters/MyMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/filters/SepiaMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/filters/SharpenMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/view/GUIView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/view/HistoPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/view/PixelImageView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/view/SwingImageProcessorView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/view/TerminalView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/ImageProcessorRunnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/ConfirmInputsGUIView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/ConfirmInputsModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/GUIControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/ImageProcessorControllerImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/InvalidCommandModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/MockAppendable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/cmds/AbstractCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/cmds/BlueCompCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/cmds/BlurCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/cmds/BrightenCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/cmds/DarkenCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/cmds/GreenCompCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/cmds/GreyscaleCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/cmds/HorizFlipCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/cmds/IntensityCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/cmds/LoadCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/cmds/LumaCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/cmds/RedCompCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/cmds/SepiaCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/cmds/SharpenCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/cmds/ValueCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/cmds/VertFlipCmdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/AbstractButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/BlueButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/BlurButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/BrightenButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/DarkenButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/FlipHButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/FlipVButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/GreenButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/GreyscaleButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/IntensityButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/LoadButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/LumaButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/MosaicButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/OpenButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/RedButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/RefreshButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/SepiaButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/SharpenButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/controller/runnables/ValueButtonActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/model/BasicImageProcessorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/model/GridPixelImageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/model/StdPixelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/view/TerminalViewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A4-ImageProcessing/Archive 2.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A4-ImageProcessing/Archive 3.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A4-ImageProcessing/Archive.zip" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/Archive.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/READMEmosaic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/artifacts/A7_CodeSwap_jar/A7-CodeSwap.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/res/mosaic-modern-art.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/res/mosaic10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A7-CodeSwap/res/mosaic100.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A6-ImageProcessingGUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/A6-ImageProcessingGUI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A7-CodeSwap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../A7-CodeSwap/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/ImageProcessorControllerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/ImageProcessorControllerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/MosaicCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/controller/cmds/MosaicCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/GridPixelImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/GridPixelImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/PixelImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/PixelImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/filters/ImageMosaic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/production/A7-CodeSwap/model/filters/ImageMosaic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/model/GridPixelImageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../A7-CodeSwap/out/test/A7-CodeSwap/model/GridPixelImageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/ImageProcessorControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/ImageProcessorControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/MosaicCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/controller/cmds/MosaicCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A7-CodeSwap/src/model/GridPixelImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/GridPixelImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A7-CodeSwap/src/model/PixelImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/PixelImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A7-CodeSwap/src/model/filters/IMosaic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/filters/IMosaic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A7-CodeSwap/src/model/filters/ImageMosaic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../A7-CodeSwap/src/model/filters/ImageMosaic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A7-CodeSwap/test/model/GridPixelImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../A7-CodeSwap/test/model/GridPixelImageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +90,7 @@
       <workItem from="1669090023405" duration="6969000" />
       <workItem from="1669216685519" duration="612000" />
       <workItem from="1669518413118" duration="3827000" />
-      <workItem from="1670014148952" duration="1687000" />
+      <workItem from="1670014148952" duration="2283000" />
     </task>
     <servers />
   </component>

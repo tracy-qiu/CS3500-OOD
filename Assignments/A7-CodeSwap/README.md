@@ -14,6 +14,7 @@ BasicImageProcessor - implements the ImageProcessor and represents the loaded im
 images as
 a hashmap of strings and PixelImages.
 
+
 ### Filters:
 
 This folder is a new addition to HW5. It contains different kinds of filter matrices that can be

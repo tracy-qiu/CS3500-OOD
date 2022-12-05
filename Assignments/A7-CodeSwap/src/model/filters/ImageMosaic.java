@@ -3,7 +3,9 @@ package model.filters;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Random;
+import java.util.Set;
 
 import model.GridPixelImage;
 import model.Pixel;
@@ -11,17 +13,19 @@ import model.PixelImage;
 import model.StdPixel;
 
 /**
- *
+ * Class that represents the Image Mosaic functionality that can be applied to an image.
  */
 public class ImageMosaic implements IMosaic {
   private final PixelImage image;
   private ArrayList<ArrayList<Integer>> seeds;
   private HashMap<ArrayList<Integer>, ArrayList<Pixel>> clusters;
+  int rand;
+  boolean haveRandSeed = false;
 
   /**
-   *
-   * @param image
-   * @param number
+   * Constrructor for the Image Mosaic functionality.
+   * @param image the given image to be changed.
+   * @param number the number of seeds the user specifies.
    */
   public ImageMosaic(PixelImage image, int number) {
     if (image == null) {
@@ -36,28 +40,54 @@ public class ImageMosaic implements IMosaic {
     this.setClusters();
   }
 
+  public ImageMosaic(PixelImage image, int number, int random) {
+    if (image == null) {
+      throw new IllegalArgumentException("Null image");
+    }
+    if (number < 0) {
+      throw new IllegalArgumentException("Negative number of seeds");
+    }
+    this.image = image;
+    this.rand = random;
+    this.haveRandSeed = true;
+    this.seeds = this.createSeeds(number); // initialize with helper method
+    this.clusters = this.createClusters(); // initialize with helper method
+    this.setClusters();
+  }
+
+
   /**
-   *
-   * @param numberOfSeeds
-   * @return
+   * Method that creates the random seeds based on the number inputted by the user.
+   * @param numberOfSeeds number of seeds specified by the user.
+   * @return list of all the seeds created.
    */
   // calculates random numberOfSeeds of seeds
   private ArrayList<ArrayList<Integer>> createSeeds(int numberOfSeeds) {
-    ArrayList<ArrayList<Integer>> listOfSeeds = new ArrayList<>();
-    Random rand = new Random();
-    for (int i = 0; i < numberOfSeeds; i++) {
-      // y-value
-      int row = rand.nextInt(image.getHeight() - 1);
-      // x-value
-      int col = rand.nextInt(image.getWidth() - 1);
-      listOfSeeds.add(new ArrayList<Integer>(Arrays.asList(row, col)));
+    Set<ArrayList<Integer>> setOfSeeds = new HashSet<>();
+    while (setOfSeeds.size() < numberOfSeeds) {
+      if (!haveRandSeed) {
+        int row = new Random().nextInt(image.getHeight() - 1);
+        // x-value
+        int col = new Random().nextInt(image.getWidth() - 1);
+        setOfSeeds.add(new ArrayList<Integer>(Arrays.asList(row, col)));
+      }
+      else {
+        // y-value
+        Random rand = new Random(this.rand);
+        int row = rand.nextInt(image.getHeight() - 1);
+        // x-value
+        int col = rand.nextInt(image.getWidth() - 1);
+        setOfSeeds.add(new ArrayList<Integer>(Arrays.asList(row, col)));
+        this.rand = this.rand + 1000;
+      }
     }
+    ArrayList<ArrayList<Integer>> listOfSeeds = new ArrayList<>(setOfSeeds);
     return listOfSeeds;
   }
 
   /**
-   *
-   * @return
+   * Method that initailizes the clusters with empty ArrayList.
+   * @return Hashmap that maps seeds to ArrayList of Pixels (empty values).
    */
   // initializes empty cluster
   private HashMap<ArrayList<Integer>, ArrayList<Pixel>> createClusters() {
@@ -70,12 +100,12 @@ public class ImageMosaic implements IMosaic {
   }
 
   /**
-   *
-   * @param col1
-   * @param col2
-   * @param row1
-   * @param row2
-   * @return
+   * Method that calculates the distance between two points.
+   * @param col1 col value of first point.
+   * @param col2 col value of second point.
+   * @param row1 row value of first point.
+   * @param row2 row vale of second point.
+   * @return double that represents the distance between two points.
    */
   // calculates distance between two points
   private double distanceFormula(int col1, int col2, int row1, int row2) {
@@ -83,10 +113,10 @@ public class ImageMosaic implements IMosaic {
   }
 
   /**
-   *
-   * @param row
-   * @param col
-   * @return
+   * Method that returns seed that is closest in distance to a minimum point.
+   * @param row given pixel's row.
+   * @param col given pixel's col.
+   * @return ArrayList that represents correct seed.
    */
   // returns seed with the minimum distance with GIVEN point
   private ArrayList<Integer> returnSeed(int row, int col) {
@@ -132,6 +162,7 @@ public class ImageMosaic implements IMosaic {
             blueSum / pixelList.size(), 255);
   }
 
+  @Override
   // create new mosaic image
   public PixelImage createMosaic() {
     Pixel[][] mosaicArray = new Pixel[this.image.getHeight()][this.image.getWidth()];

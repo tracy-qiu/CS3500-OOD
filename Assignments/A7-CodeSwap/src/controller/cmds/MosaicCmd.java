@@ -6,18 +6,15 @@ import model.ImageProcessor;
 
 public class MosaicCmd extends AbstractCmd {
 
-  int numSeeds;
-
-  public MosaicCmd(Scanner input, int numSeeds) {
+  public MosaicCmd(Scanner input) {
     super(input);
-    if (numSeeds <= 0){
-      throw new IllegalArgumentException("Invalid number of seeds");
-    }
-    this.numSeeds = numSeeds;
   }
 
   @Override
   protected void specificCommand(String imgName, String destName, ImageProcessor imgPro) {
+    String numSeedsStr = this.getNextInput();
+
+    int numSeeds = Integer.parseInt(numSeedsStr);
     imgPro.mosaicImage(imgName, destName, numSeeds);
   }
 }
