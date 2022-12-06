@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="A7-CodeSwap.jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/A7_CodeSwap_jar</output-path>
-    <root id="archive" name="A7-CodeSwap.jar">
-      <element id="module-output" name="A7-CodeSwap" />
-    </root>
-  </artifact>
-</component>
